@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Index</title>
+  </head>
+  <body>
+  <nav class="mb-3 pt-2 d-flex justify-content-end col-sm-12">
+    <ul class="nav nav-pills ">
+      <li class="nav-item mx-2">
+        <button class="btn btn-primary col-sm-12" id="completo"> Informacion completa </button>
+      </li>
+      <li class="nav-item mx-2">
+        <button class="btn btn-primary col-sm-12" id="nombre"> Buscar por nombre </button>
+      </li>
+      <li class="nav-item mx-2">
+        <button class="btn btn-primary col-sm-12" id="email"> Buscar por email </button>
+      </li>
+    </ul>
+  </nav>
+  <div class="table-responsive-sm">
+    <table  class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Username</th>
+          <th scope="col">Email</th>
+          <th scope="col">Phone</th>
+          <th scope="col">City</th>
+          <th scope="col">Website</th>
+        </tr>
+      </thead>
+      <tbody id = "users">
+
+      </tbody>
+    </table>
+  </div>
+
+    <script src="data.js"></script>
+  </body>
+</html>
